@@ -1,0 +1,18 @@
+4856:                            {q.type === 'mcq' && q.options && (
+4882:                            {q.type === 'true_false' && (
+4906:                            {q.type === 'essay' && (
+4915:                            {q.type === 'locate_on_image' && (
+5904:          const isCorrect = (q.type === 'mcq' || q.type === 'true_false') 
+5905:            ? (q.type === 'true_false' && q.correctAnswer === 'False' && q.wrongPart)
+5917:             if (q.type === 'mcq' || q.type === 'true_false') {
+5968:                {!isCurrent && q.type === 'essay' && (
+6001:                    {(q.type === 'mcq' || q.type === 'true_false') ? (
+8307:    const isCorrect = (q.type === 'mcq' || q.type === 'true_false') 
+8308:      ? (q.type === 'true_false' && q.correctAnswer === 'False' && q.wrongPart)
+8678:      if (q.type === 'essay' && answers[q.id]) {
+8684:        if (q.type === 'mcq' || q.type === 'true_false') {
+8685:          isCorrect = (q.type === 'true_false' && q.correctAnswer === 'False' && q.wrongPart)
+8688:        } else if (q.type === 'multi_select') {
+8692:        } else if (q.type === 'fill_in_blanks') {
+8696:        } else if (q.type === 'matching') {
+8700:        } else if (q.type === 'locate_on_image') {
